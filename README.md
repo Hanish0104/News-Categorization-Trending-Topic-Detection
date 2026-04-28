@@ -74,24 +74,24 @@ Multi-Layer Perceptron neural network
 Handles high-dimensional, sparse text data effectively
 Balanced with SMOTE
 
-MetricScoreValidation Accuracy87%Test Accuracy87%Test F1-Score (macro)87%
+MetricScoreValidation Accuracy 87% Test Accuracy 87% Test F1-Score (macro) 87%
 2. Logistic Regression — Trending Topic Detection (Best Model)
 
 Simple, fast, and effective on high-dimensional sparse data
 Balanced class weights for fairness across categories
 Max iterations: 1,000
 
-MetricScoreValidation Accuracy~60%Test Accuracy~55.2%Test F1-Score (macro)~51%
+MetricScoreValidation Accuracy ~ 60% Test Accuracy ~ 55.2% Test F1-Score (macro) ~ 51%
 3. XGBoost Classifier — Trending Topic Detection
 
 Gradient boosting decision tree algorithm
 Captures non-linear feature interactions
 More prone to overfitting on this dataset
 
-MetricScoreTraining Accuracy87%Validation Accuracy~51.7%Test Accuracy~51.9%
+MetricScoreTraining Accuracy87% Validation Accuracy~51.7% Test Accuracy~51.9%
 
 Performance Summary
-MetricLogistic Regression (Trending)XGBoost (Trending)MLP (Categorization)Train Accuracy54.8%87.0%87%Validation Accuracy~60%51.7%87%Test Accuracy57.2%51.9%87%F1-Score (macro)57%51%87%VerdictMore stableOverfitted✅ Best for categorization
+MetricLogistic Regression (Trending)XGBoost (Trending)MLP (Categorization)Train Accuracy 54.8% 87.0% 87% Validation Accuracy~60% 51.7% 87% Test Accuracy57.2% 51.9% 87% F1-Score (macro) 57% 51% 87% VerdictMore stableOverfitted Best for categorization
 
 Conclusions
 
