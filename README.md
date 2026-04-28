@@ -1,4 +1,5 @@
 AI News Categorization and Trending Topic Detection
+
 A machine learning project that automatically classifies news articles into categories and detects trending topics using NLP techniques on the Huffington Post News Category Dataset.
 
 Author
